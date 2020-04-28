@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-image: url(https://i.ytimg.com/vi/Hf8zllD2VLo/maxresdefault.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagen{
+display: flex;
+justify-content: center;
+
+}
+.fa-user-circle{
+    position: relative;
+    top:120px;
+    font-size: 170px;
+    color:black;
+    border-radius: 80px;
+    background: red;
+    box-shadow: 1px 1px 15px red;
+}
+
+.login{
+height: 350px;
+width: 300px;
+border:0px solid red;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin:auto;
+margin-top: 5%;
+align-items: center;
+border-radius: 10px;
+box-shadow: 1px 1px 25px red;
+background: rgb(22, 20, 20);
+}
+
+.titulo{
+    position: relative;
+    top:45px;
+    color:white;
+}
+.principal{
+margin-top: 27%;
+height: 190px;
+width: 275px;
+border:0px solid silver;
+display: flex;
+flex-direction: column;
+}
+
+.campo{
+    margin-top: 20px;
+    margin-left: 5px;
+    opacity: 0.9;
+}
+.icon{
+    font-size: 30px;
+    background: black;
+    border-radius: 15px;
+    color: red;
+    
+}
+.txtlog {
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px blue;
+    margin-left: 29px;
+    border-style: none;
+}
+.txtpsw{
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px blue;
+    margin-left: 10%;
+}
+.btn{
+    height: 35px;
+    width: 120px;
+    margin-left: 30%;
+    margin-top: 15px;
+    background: red;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px red;
+}
+ .btn:hover(){
+     background:red;
+ }
+

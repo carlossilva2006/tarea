@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formulario.css">
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    
+</head>
+<body>
+    <form action="" class="formulario" id="formulario" onsubmit="return false;">
+         <div class="campos">
+            <div class="campo">
+                <label for="txtRut" class="Rut"> Rut</label>
+                <input type="text" id="inRut">
+             </div>
+             <div class="campo">
+                <label for="txtNombre" class="Nombre">Nombre</label>
+                <input type="text" id="inNombre">
+             </div>
+             <div class="campo">
+                <label for="txtComuna" class="Comuna">Comuna</label>
+                <input type="text" id="inComuna">
+             </div>
+             <div class="divbtn">
+                <button class="btn" id="btnAgregar">Agregar</button>
+             </div>
+         </div> 
+         <div class="tabla">
+             <table id="tabPersona">
+                 <tr>
+                     <th width="120px" id="trut">Rut</th>
+                     <th width="120px" id="tnom">Nombre</th>
+                     <th width="120px" id="tco">Comuna</th>
+                 </tr>
+             </table>
+         </div>  
+    </form>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" 
+    inte    grity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" 
+    crossorigin="anonymous"></script>
+    <script src="js/formulario.js"></script>
+</body>
+</html>
