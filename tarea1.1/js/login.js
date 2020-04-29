@@ -16,8 +16,6 @@ var jsonUsuario = [
     var login = "";
     var password = "";
 
-      $("#Log");
-      $("#Psw");
     
     $("#btnIngresar").click(function(){ 
         login = $("#Log").val();
